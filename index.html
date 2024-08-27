@@ -1,27 +1,15 @@
-let posicaoXbolinha
-let posicaoYbolinha
-let diametro=20
-let cor
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
 
-function setup() {
-  createCanvas(600, 600);
-  background(240,128,128);
-  cor=color (random(0, 497), random(0, 497), random (0,497))
-
-}
-function draw() {
-  fill(cor)
-  circle(posicaoXbolinha, posicaoYbolinha,20)
-  posicaoXbolinha=mouseX
-  posicaoYbolinha=mouseY
-  if(mouseIsPressed){
-  cor=color (random(0, 497), random(0, 497), random (0,497))
-    
-  }
-}
- function mousePressed (){
-     background(240,128,128)
-
-   
-   
- }
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
